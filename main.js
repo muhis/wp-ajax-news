@@ -8,7 +8,13 @@ btn.addEventListener('click',function(){
 	     console.log(ourData);
 	    }
 	  };
-	  ourRequest.open("GET", "http://zinkki.com/theshortcut/wp-json/wp/v2/posts?per_page=1", true);
+	  ourRequest.open("GET", "https://learnwebcode.github.io/json-example/animals-1.json", true);
 	  ourRequest.send();
 })
 
+function renderHTML(data){
+	for (i=0; i< data.length; i++){
+		demo.insertAdjacentHTML('beforeend','</br>' + data[i].name);
+	}
+	
+}
