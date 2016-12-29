@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin:0px;
+
+}
+.news-image{
+    height: 150px;
+    width: 398px;
+    padding:0 1px 0 1px;
+}
+.news-date{
+	width: 90px;
+	height: 70px;
+    margin-left: 3px;
+}
+.news-article{
+	width: 300px;
+	height: 70px;
+}
+.news-item{
+	width: 400px;
+	border: solid 0.5px black;
+    margin: 0 1px 0 1px;
+}
+.flexme{
+	display: flex;
+	flex-direction: row;
+}
