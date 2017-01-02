@@ -20,9 +20,16 @@
 .news-item{
 	width: 400px;
 	border: solid 0.5px black;
-    margin: 0 1px 0 1px;
+  margin: 0 1px 0 1px;
+  display: inline-block;
+  white-space: normal;
+  position: relative;
 }
 .flexme{
 	display: flex;
 	flex-direction: row;
+}
+#container{
+  overflow-x: none;
+  white-space: nowrap;
 }
