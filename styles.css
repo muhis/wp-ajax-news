@@ -24,12 +24,29 @@
   display: inline-block;
   white-space: normal;
   position: relative;
+  // transition
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 .flexme{
 	display: flex;
 	flex-direction: row;
 }
 #container{
-  overflow-x: none;
+  overflow-x: scroll;
   white-space: nowrap;
+  height: 300px;
+}
+.wjs_btn_container{
+text-align: center;
+display: block;
+}
+.news-item-hidden{
+  width: 0;
+  height: 0;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
 }
